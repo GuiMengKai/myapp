@@ -36,6 +36,7 @@ import {
   MatTooltipModule,
   MatTreeModule
 } from '@angular/material';
+import { MatToolbarModule } from '@angular/material/toolbar';
 
 export const MAT_MATERIAL_MODULES = [
   MatInputModule,
@@ -64,7 +65,9 @@ export const MAT_MATERIAL_MODULES = [
   MatSliderModule,
   MatNativeDateModule,
   MatStepperModule,
-  MatTreeModule
+  MatTreeModule,
+  MatToolbarModule,
+  MatButtonToggleModule
 ];
 
 @NgModule({
